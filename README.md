@@ -139,17 +139,6 @@ The checking and scoring logic is separate from the network code, so it can be t
 
 Only scan websites you own or have permission to test. HeaderHawk sends a single normal GET request and reads public response headers, but responsible habits matter in security work. This tool is for educational and personal use only.
 
-## 🛠️ Building Executable (Optional)
-
-If you want a standalone Windows executable:
-
-```bash
-pip install pyinstaller
-pyinstaller --onefile scanner.py
-```
-
-The result appears in the `dist/` folder.
-
 ## 📝 License
 
 This project is open source and available under the MIT License.
